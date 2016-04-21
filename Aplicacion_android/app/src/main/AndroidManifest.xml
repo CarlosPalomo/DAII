@@ -1,0 +1,53 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.utng.aplicacion_android_games">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/principal"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="mx.edu.utng.aplicacion_android_games.InicioActividad">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+
+            </intent-filter>
+
+        </activity>
+        <activity android:name="mx.edu.utng.aplicacion_android_games.SeleccionActividad"></activity>
+        <activity android:name="mx.edu.utng.aplicacion_android_games.ListaActividad"></activity>
+        <activity android:name="mx.edu.utng.aplicacion_android_games.Indice"></activity>
+        <activity android:name="mx.edu.utng.aplicacion_android_games.ListaDosActivity"></activity>
+        <activity android:name="mx.edu.utng.aplicacion_android_games.SeleccionSegundaActividad"></activity>
+
+        <activity android:name="mx.edu.utng.aplicacion_android_games.AyudaActividad"></activity>
+
+        <activity android:name="mx.edu.utng.aplicacion_android_games.RegistroActividad"></activity>
+        <activity android:name="mx.edu.utng.aplicacion_android_games.LogeoActividad"></activity>
+        <activity android:name="mx.edu.utng.aplicacion_android_games.DeveloperActivity"></activity>
+        <activity android:name=".GraficaActiviry"></activity>
+        <activity android:name="mx.edu.utng.aplicacion_android_games.QuizActivity"></activity>
+        <activity android:name="mx.edu.utng.aplicacion_android_games.ResultActivity"></activity>
+        <activity android:name="mx.edu.utng.aplicacion_android_games.SplashScreenActivityBienbenida"></activity>
+
+        <activity android:name="mx.edu.utng.aplicacion_android_games.InformacionActivity"></activity>
+        <activity android:name="mx.edu.utng.aplicacion_android_games.PrevioActivity"></activity>
+        <activity android:name="mx.edu.utng.aplicacion_android_games.SettingsActivity"></activity>
+        <activity android:name="mx.edu.utng.aplicacion_android_games.Gato"></activity>
+        <activity android:name="mx.edu.utng.aplicacion_android_games.MainMenuActivity"></activity>
+        <activity android:name="mx.edu.utng.aplicacion_android_games.PuzzleActivity"></activity>
+        <activity android:name="mx.edu.utng.aplicacion_android_games.GraficoActivityDos"></activity>
+        <activity android:name="mx.edu.utng.aplicacion_android_games.EnviarCorreoActivity"></activity>
+
+
+
+
+
+    </application>
+
+</manifest>

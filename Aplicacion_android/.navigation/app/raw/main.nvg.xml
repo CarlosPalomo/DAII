@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "mx.edu.utng.aplicacion_android_games.EntrarActividad"/>
+      <point      
+        x = "1928"      
+        y = "128"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "mx.edu.utng.aplicacion_android_games.SeleccionActividad"/>
+      <point      
+        x = "1036"      
+        y = "728"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "mx.edu.utng.aplicacion_android_games.ListaActividad"/>
+      <point      
+        x = "36"      
+        y = "464"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "mx.edu.utng.aplicacion_android_games.Indice"/>
+      <point      
+        x = "532"      
+        y = "-176"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "mx.edu.utng.aplicacion_android_games.LoginActividad"/>
+      <point      
+        x = "700"      
+        y = "300"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "mx.edu.utng.aplicacion_android_games.RegistrarActividad"/>
+      <point      
+        x = "750"      
+        y = "350"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "mx.edu.utng.aplicacion_android_games.InicioActividad"/>
+      <point      
+        x = "800"      
+        y = "400"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "mx.edu.utng.aplicacion_android_games.ListaDosActivity"/>
+      <point      
+        x = "850"      
+        y = "450"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>
