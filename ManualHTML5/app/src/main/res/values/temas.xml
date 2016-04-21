@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="temas">
+        <item>Selecciona un tema</item>
+        <item>TEMA 1: Estructura Global</item>
+        <item>TEMA 2: Estructura del cuerpo</item>
+        <item>TEMA 3: Dentro del cuerpo</item>
+        <item>TEMA 4: Nuevos y viejos elementos</item>
+        <item>TEMA 5: Referencia Rapida</item>
+       </string-array>
+
+</resources>

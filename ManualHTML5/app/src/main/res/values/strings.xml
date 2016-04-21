@@ -1,0 +1,190 @@
+<resources>
+    <string name="app_name">Manual HTML5</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to principal_login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="desarrollador">Desarrollador: Carlos Alberto Martinez Palomo</string>
+    <string name="universidad">Universidad Tecnologica del Norte de Guuanajuato</string>
+    <string name="materia">Materia: Desarrollo de aplicaciones III</string>
+    <string name="audio">Audios sobre HTML5</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="porque">¿Porque html5?</string>
+    <string name="calif">Calificanos</string>
+    <string name="usuario">usuario</string>
+    <string name="contra">Contraseña</string>
+    <string name="ini">Inicio</string>
+    <string name="visua">Visualizacion de videos de HTML5</string>
+    <string name="estru">Estructura Basica</string>
+    <string name="buenas">Buenas practicas con CSS</string>
+    <string name="curso">Curso de HTML5 Basico</string>
+    <string name="salir">Salir</string>
+    <string name="cueu">Cuestionario Tema 1</string>
+    <string name="cued">Cuestionario Tema 2</string>
+    <string name="cuet">cuestionario Tema 3</string>
+    <string name="cuec">Cuestionario Tema 4</string>
+    <string name="bienvenido">BIENVENIDO AL APARTADO DE CUESTIONARIOS DEL MANUAL</string>
+    <string name="in">Ingresar</string>
+    <string name="con">Contraseña</string>
+    <string name="usua">Usuario</string>
+    <string name="contrase">Contraseña</string>
+    <string name="studio">Android Studio</string>
+    <string name="inicio">Inicio</string>
+    <string name="dataalta">Date de alta</string>
+    <string name="crear">Crear cuenta</string>
+    <string name="confirm">Confirma contraseña</string>
+    <string name="nombreusua">Nombre de usuario</string>
+    <string name="cont">Contenido Tematico</string>
+    <string name="cues">Cuestionario por Tema</string>
+    <string name="practicas">Practicas de Codigo</string>
+    <string name="videos">Videos</string>
+    <string name="audi">Audio</string>
+    <string name="acerca">Acerca de</string>
+    <string name="sistema">Sistema interno</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="opciones">Opciones Avanzadas</string>
+    <string name="grafica">Grafica de Aprovechamiento</string>
+    <string name="estrategias">Estrategias</string>
+    <string name="calificanos">Calificanos</string>
+    <string name="registrate">Registrate</string>
+    <string name="url_video">https://www.youtube.com/watch?v=RBbviZLKEG0</string>
+    <string name="url_video_2">https://www.youtube.com/watch?v=b0tKmbaSgP4</string>
+    <string name="mantener_presionado">Manten precionado al seleccionar un boton para poder desglozar los subtemas</string>
+    <string name="precionado">Selecciona un tema que se muestran en la parte de abajo</string>
+    <string name="estruc">Los documentos HTML se encuentran estrictamente organizados. Cada parte del documento está diferenciada, declarada y determinada por etiquetas específicas</string>
+    <string name="type">IMPORTANTE: Esta línea debe ser la primera línea del archivo, sin espacios o líneas que la precedan. De esta forma, el modo estándar del navegador es activado y las incorporaciones de HTML5 son interpretadas siempre que sea posible, o ignoradas en caso contrario. Hágalo usted mismo: Puede comenzar a copiar el código en su archivo de texto y agregar los próximos a medida que los vamos estudiand</string>
+    <string name="html"><![CDATA[Luego de declarar el tipo de documento, debemos comenzar a construir la estructura HTML. Como siempre, la estructura tipo árbol de este lenguaje tiene su raíz en el elemento <html>. Este elemento envolverá al resto del código]]></string>
+    <string name="body"><![CDATA[La siguiente gran sección que es parte principal de la organización de un documento HTML es el cuerpo. El cuerpo representa la parte visible de todo documento y es especificado entre etiquetas <body>. Estas etiquetas tampoco han cambiado en relación con versiones previas de HTML]]></string>
+    <string name="title"><![CDATA[La etiqueta <title>, como siempre, simplemente especifica el título del documento, y no hay nada nuevo para comenta]]></string>
+    <string name="texto">Selecciona un tema el cual quieras estudiar</string>
+    <string name="sig">Siguiente</string>
+    <string name="contenidouno">El elemento canvas es otro elemento HTML5 que ofrece muchas posibilidades cuando se utiliza junto con la etiqueta de vídeo. En el ejemplo que aparece a continuación, se utilizan dos funciones del elemento canvas para importar y exportar imágenes. La primera es el método drawImage, que permite importar imágenes de tres fuentes diferentes: un elemento de imagen, otro elemento canvas y un elemento video. Esto significa que, cada vez que se ejecute este método, el marco actual del vídeo se importará y se mostrará en el elemento canvas. La segunda función de la etiqueta canvas que se utiliza es el método toDataURL, que permite exportar el contenido del elemento canvas a una imagen.</string>
+    <string name="canva">Canva</string>
+    <string name="bienvenidos">Bienvenido a mi curso</string>
+    <string name="html_cont">. Los elementos HTML5 estudiados hasta el momento nos ayudan a identificar cada sección del diseño y asignar un propósito intrínseco a cada una de ellas, pero lo que es realmente importante para nuestro sitio web se encuentra en el interior de estas secciones.</string>
+    <string name="cuer">Dentro del cuerpo</string>
+    <string name="art">Article</string>
+    <string name="content_art">Del mismo modo que los blogs están divididos en entradas, sitios web normalmente presentan información relevante dividida en partes que comparten similares características</string>
+    <string name="grou">hgroup</string>
+    <string name="content_gro">Dentro de cada elemento header, en la parte superior del cuerpo o al comienzo de cada article, incorporamos elementos h1 para declarar un título. Básicamente, las etiquetas h1 son todo lo que necesitamos para crear una línea de cabecera para cada parte del documento, pero es normal que necesitemos también agregar subtítulos o más información que especifique de qué se trata la página web o una sección en particul</string>
+    <string name="figure">figure y figcaption</string>
+    <string name="figure_conte">La etiqueta figure fue creada para ayudarnos a ser aún más específicos a la hora de declarar el contenido del documento. Antes de que este elemento sea introducido, no podíamos identificar el contenido que era parte de la información pero a la vez independiente, como ilustraciones, fotos, videos, etc . Las etiquetas figcaption encierran el texto relacionado con figure y establecen una relación entre ambos elementos y su contenido</string>
+    <string name="ejer">Ejercicios de HTML5</string>
+    <string name="demo">HTML 5: demos y ejemplos</string>
+    <string name="aprende">Aprenda HTML5 en 5 minutos</string>
+    <string name="cuerpo">Estructura del cuerpo</string>
+    <string name="content_cuerpo">La estructura del cuerpo el código entre las etiquetas body) generará la parte visible del documento. Este es el código que producirá nuestra página web</string>
+    <string name="etiquetas_basicas">A continuacion son las etiquetas basicas</string>
+    <string name="header">Header</string>
+    <string name="header_contenido">Header: la intención de header es proveer información introductoria (títulos, subtítulos, logos) dentro de las etiquetas head va por ejemplo Titulo y hasta hipervincuos pero solo se pone eso</string>
+    <string name="nav">nav</string>
+    <string name="contenido_nav">La siguiente etiqueta es la Barra de Navegación. Esta barra es generada en HTML5 con el elemento nav se se debe considerar que estas etiquetas fueron creadas para brindar información a los navegadores y ayudar a cada nuevo programa y dispositivo en el mercado a identificar las partes más relevantes del documento</string>
+    <string name="section">Section</string>
+    <string name="contenido_section">Al igual que la Barra de Navegación, la columna Información Principal es una sección aparte. Por este motivo, la sección para Información Principal va debajo de la etiqueta de cierre /nav.</string>
+    <string name="aside">aside</string>
+    <string name="aside_contenido">La información dentro de esta barra está relacionada con la información principal pero no es relevante por sí misma. Siguiendo el mismo ejemplo podemos decir que las entradas del blog son relevantes pero los enlaces y las pequeñas reseñas sobre esas entradas son solo una ayuda para la navegació</string>
+    <string name="estru_glob">Estructura Global</string>
+    <string name="doctype">DOCTYPE</string>
+    <string name="htmls">¿HTML?</string>
+    <string name="bodyglob">body</string>
+    <string name="title_glo">Title</string>
+    <string name="importancia"><![CDATA[Al hablar de HTML5 estamos hablando realmente de una familia de tecnologías que en combinación nos proporcionan una nueva serie de posibilidades al momento de construir aplicaciones y sitios web. Concretamente esta familia está conformada del ya conocido HTML, Javascript y CSS3, los cuales anteriormente ya eran utilizados al construir nuestros sitios, sin embargo, con HTML5 es un tanto distinto ya que son soportados de forma nativa, De igual manera, al tratarse de un lenguaje \'evolucionado\', no será necesario indicarle al navegador qué versión de HTML está implementado el documento, basta con indicar que es HTML y punto. Hablando en código... Esto... !DOCTYPE html PUBLIC //W3C//DTD HTML 4.01//EN http://www.w3.org/TR/html4/strict.dtd> html head titleHola Mundo!/title script type=text/javascript src=miScript.js /script link type=text/css rel=stylesheet href=lounge.css /head Pasa a ser esto... !doctype html html head titleHola Mundo /title /head script src=miScript.js/script link rel=stylesheet href=miEstilo.css Mucho más simple, cierto?]]></string>
+    <string name="impor_html">Importancia de HTML5</string>
+    <string name="titu">Titulo</string>
+    <string name="nue_vie">Nuevos y viejos elementos</string>
+    <string name="nue_vie_contenido">HTML5 fue desarrollado con la intención de simplificar, especificar y organizar el código. Para lograr este propósito, nuevas etiquetas y atributos fueron agregados y HTML fue completamente integrado a CSS y Javascr</string>
+    <string name="mark">mark</string>
+    <string name="mark_contenido">La etiqueta mark fue agregada para resaltar parte de un texto que originalmente no era considerado importante pero ahoraes relevante acorde con las acciones del usuario. El ejemplo que más se ajusta a este caso es un resultado de búsqueda. El elemento mark resaltará la parte del texto que concuerda con el texto buscado</string>
+    <string name="small">small</string>
+    <string name="small_contenido">En HTML5, el nuevo propósito de small es presentar la llamada letra pequeña, como impresiones legales, descargos, etc.</string>
+    <string name="cite">cite</string>
+    <string name="cite_contenido">Otro elemento que ha cambiado su naturaleza para volverse más específico es cite. Ahora las etiquetas cite encierran el título de un trabajo, como un libro, una película, una canción, etc..</string>
+    <string name="address">address</string>
+    <string name="address_contenido">El elemento address es un viejo elemento convertido en un elemento estructural. No necesitamos usarlo previamente para construir nuestra plantilla, sin embargo podría ubicarse perfectamente en algunas situaciones en las que debemos presentar información de contacto relacionada con el contenido del elemento article o el cuerpo completo.</string>
+    <string name="time">time</string>
+    <string name="time_contenido">El elemento time nos permite declarar un texto comprensible para humanos y navegadores que representa fecha y hora:</string>
+    <string name="referencia_rapida">Referencias Rapidas</string>
+    <string name="referencia_contenido">En la especificación HTML5, HTML está a cargo de la estructura del documento y provee un grupo completo de nuevos elementos para este propósito. La especificación también incluye algunos elementos con la única tarea de proveer estilos. Esta es una lista de los que consideramos más relevantes: IMPORTANTE: Para una completa referencia de los elementos HTML incluidos en la especificación, visite nuestro sitio web y siga los enlaces correspondientes a este capítulo. header Este elemento presenta información introductoria y puede ser aplicado en diferentes secciones del documento. Tiene el propósito de contener la cabecera de una sección pero también puede ser utilizado para agrupar índices, formularios de búsqueda, logos, etc... nav Este elemento indica una sección de enlaces con propósitos de navegación, como menús o índices. No todos los enlaces dentro de una página web tienen que estar dentro de un elemento nav , solo aquellos que forman partes de bloques de navegación. section Este elemento representa una sección general del documento. Es usualmente utilizado para construir varios bloques de contenido (por ejemplo, columnas) con el propósito de ordenar el contenido que comparte una característica específica, como capítulos o páginas de un libro, grupo de noticias, artículos, etc... aside Este elemento representa contenido que está relacionado con el contenido principal pero no es parte del mismo. Ejemplos pueden ser citas, información en barras laterales, publicidad, etc... footer Este elemento representa información adicional sobre su elemento padre. Por ejemplo, un elementofooter insertado al final del cuerpo proveerá información adicional sobre el cuerpo del documento, como el pie normal de una página web. Puede ser usado no solo para el cuerpo sino también para diferentes secciones dentro del cuerpo, otorgando información adicional sobre estas secciones específicas</string>
+    <string name="soporte_contenido">Uno de los grandes “problemas” (que no lo es tanto) de HTML5 es su funcionamiento en navegadores viejos y obsoletos. Más concretamente en Internet Explorer. Mucha gente sigue sin desarrollar en HTML5 por esta supuesta incompatibilidad, pero hay formas de que las etiquetas semánticas de HTML5 y atributos de CSS3 funcionen en IE. HTML5 Enabling Script: Permite usar las etiquetas semanticas dentro de IE6, 7 y 8 como si fueran divs normales, estilizables por CSS. Sin este script, las etiquetas son ignoradas en IE y es imposible agregarles diseño a ellas o cualquier elemento dentro de ellas.Para utilizarlo se debe incluir esta línea en el “head” de tu documento. !--[if lt IE 9] script src=http://HTML5shim.googlecode.com/svn/trunk/HTML5.js /script [endif] IE-CSS3: Este extraño script permite usar bordes redondeados y sombras sobre objetos de CSS3 en IE6, 7 y 8. ¿Cómo te quedas? Modernizr: Cuando todo falla, con Modernizr puedes detectar si el navegador tiene soporte para multiples capacidades de Javascript, HTML5 y CSS3. Si no, tu mismo puedes poner la solución o alternativa.</string>
+    <string name="importancia_html">Importancia de HTML5</string>
+    <string name="tag_contenido">Lo mas básico del elemento video seria poner el src con la dirección al archivo .ogv (Codificado en .ogg, con codec On2 VP8) o .mp4 (Con codec H264). Pero con sólo poner el código HTML no se mostrara nada, ya que el video no tiene sus controles y como predeterminado no reproducirse automáticamente, para ello agregaremos los controles simplemente agregando controls. Tomaremos como base de prueba, este video de Opera en OGG: http://devfiles.myopera.com/articles/2642/sintel-trailer.ogv Código : video src=tu_video.ogvTu navegador no soporta HTML5 /video Con controles: Código : video controls src=http://devfiles.myopera.com/articles/2642/sintel-trailer.ogvTu navegador no soporta HTML5 /video Si abrimos nuestro video ya nos aparecerán los controles y tendremos la posibilidad de reproducir nuestro video, ahora vamos a agregarle una imagen previa antes de reproducir el video, para ello agregamos poster=tu_poster.png con nuestro poster. Código : video controls src=tu_video.ogv poster=tu_poster.png Tu navegador no soporta HTML5 /video</string>
+    <string name="tag">Tag en videos</string>
+    <string name="menu">Menu</string>
+    <string name="menudos">Menu</string>
+</resources>

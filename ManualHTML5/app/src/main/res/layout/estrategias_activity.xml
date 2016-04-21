@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="En esta seccion podras buscar aun ma informacion asi como encontrar ejemplos y documentos que te ayuden a aprender mas sobre HTML5...
+        En la parte de abajo estaran unos links" />
+
+        <Button
+            android:id="@+id/link1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aprende"
+            />
+    <Button
+        android:id="@+id/link2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/demo"/>
+    <Button
+        android:id="@+id/link3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ejer"/>
+
+</LinearLayout>

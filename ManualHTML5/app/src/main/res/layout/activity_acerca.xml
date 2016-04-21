@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fo"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:paddingLeft="7px">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/desarrollador"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        android:textColor="#FFffff"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/universidad"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#FFffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/materia"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#FFffff"/>
+
+
+</LinearLayout>

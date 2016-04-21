@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/temas"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/cont" />
+
+        <item
+            android:id="@+id/practicas"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/practicas" />
+        <item
+            android:id="@+id/cuestionario"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Cuestionario" />
+        <item
+            android:id="@+id/videos"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/videos" />
+        <item
+            android:id="@+id/audio"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/audi" />
+        <item
+            android:id="@+id/acerca"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/acerca" />
+        <item
+            android:id="@+id/correo"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Correo" />
+        <item
+            android:id="@+id/pdf"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Certificacion" />
+    </group>
+
+    <item android:title="@string/sistema">
+        <menu>
+            <item
+                android:id="@+id/config"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/configuracion" />
+            <item
+                android:id="@+id/registrar"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/opciones" />
+            <item
+                android:id="@+id/graf"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/grafica" />
+
+            <item
+                android:id="@+id/calificanos"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/calificanos" />
+
+
+        </menu>
+    </item>
+
+</menu>
