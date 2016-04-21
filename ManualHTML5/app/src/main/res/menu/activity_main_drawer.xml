@@ -14,7 +14,7 @@
         <item
             android:id="@+id/cuestionario"
             android:icon="@drawable/ic_menu_send"
-            android:title="Cuestionario" />
+            android:title="@string/Cuestionario" />
         <item
             android:id="@+id/videos"
             android:icon="@drawable/ic_menu_send"
@@ -30,11 +30,7 @@
         <item
             android:id="@+id/correo"
             android:icon="@drawable/ic_menu_send"
-            android:title="Correo" />
-        <item
-            android:id="@+id/pdf"
-            android:icon="@drawable/ic_menu_send"
-            android:title="Certificacion" />
+            android:title="@string/correo" />
     </group>
 
     <item android:title="@string/sistema">

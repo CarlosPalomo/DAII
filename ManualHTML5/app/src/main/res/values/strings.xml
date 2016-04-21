@@ -78,22 +78,22 @@
     <string name="pref_ringtone_silent">Silent</string>
 
     <string name="pref_title_vibrate">Vibrate</string>
-    <string name="desarrollador">Desarrollador: Carlos Alberto Martinez Palomo</string>
-    <string name="universidad">Universidad Tecnologica del Norte de Guuanajuato</string>
+    <string name="desarrollador">Desarrollador: Carlos Alberto Martínez Palomo</string>
+    <string name="universidad">Universidad Tecnológica del Norte de Guanajuato</string>
     <string name="materia">Materia: Desarrollo de aplicaciones III</string>
     <string name="audio">Audios sobre HTML5</string>
     <string name="start">Start</string>
     <string name="pause">Pause</string>
     <string name="stop">Stop</string>
-    <string name="porque">¿Porque html5?</string>
-    <string name="calif">Calificanos</string>
-    <string name="usuario">usuario</string>
+    <string name="porque">¿Por qué html5?</string>
+    <string name="calif">Califícanos</string>
+    <string name="usuario">Usuario</string>
     <string name="contra">Contraseña</string>
     <string name="ini">Inicio</string>
-    <string name="visua">Visualizacion de videos de HTML5</string>
-    <string name="estru">Estructura Basica</string>
+    <string name="visua">Visualización de videos de HTML5</string>
+    <string name="estru">Estructura Básica</string>
     <string name="buenas">Buenas practicas con CSS</string>
-    <string name="curso">Curso de HTML5 Basico</string>
+    <string name="curso">Curso de HTML5 Básico</string>
     <string name="salir">Salir</string>
     <string name="cueu">Cuestionario Tema 1</string>
     <string name="cued">Cuestionario Tema 2</string>
@@ -106,29 +106,29 @@
     <string name="contrase">Contraseña</string>
     <string name="studio">Android Studio</string>
     <string name="inicio">Inicio</string>
-    <string name="dataalta">Date de alta</string>
+    <string name="dataalta">Registrate</string>
     <string name="crear">Crear cuenta</string>
     <string name="confirm">Confirma contraseña</string>
     <string name="nombreusua">Nombre de usuario</string>
-    <string name="cont">Contenido Tematico</string>
+    <string name="cont">Contenido Temático</string>
     <string name="cues">Cuestionario por Tema</string>
-    <string name="practicas">Practicas de Codigo</string>
+    <string name="practicas">Practicas de Código</string>
     <string name="videos">Videos</string>
     <string name="audi">Audio</string>
     <string name="acerca">Acerca de</string>
     <string name="sistema">Sistema interno</string>
-    <string name="configuracion">Configuracion</string>
+    <string name="configuracion">Configuración</string>
     <string name="opciones">Opciones Avanzadas</string>
-    <string name="grafica">Grafica de Aprovechamiento</string>
+    <string name="grafica">Gráfica de Aprovechamiento</string>
     <string name="estrategias">Estrategias</string>
-    <string name="calificanos">Calificanos</string>
-    <string name="registrate">Registrate</string>
+    <string name="calificanos">Califícanos</string>
+    <string name="registrate">Regístrate</string>
     <string name="url_video">https://www.youtube.com/watch?v=RBbviZLKEG0</string>
     <string name="url_video_2">https://www.youtube.com/watch?v=b0tKmbaSgP4</string>
-    <string name="mantener_presionado">Manten precionado al seleccionar un boton para poder desglozar los subtemas</string>
+    <string name="mantener_presionado">Mantén presionado al seleccionar un botón para poder desglosar los subtemas</string>
     <string name="precionado">Selecciona un tema que se muestran en la parte de abajo</string>
     <string name="estruc">Los documentos HTML se encuentran estrictamente organizados. Cada parte del documento está diferenciada, declarada y determinada por etiquetas específicas</string>
-    <string name="type">IMPORTANTE: Esta línea debe ser la primera línea del archivo, sin espacios o líneas que la precedan. De esta forma, el modo estándar del navegador es activado y las incorporaciones de HTML5 son interpretadas siempre que sea posible, o ignoradas en caso contrario. Hágalo usted mismo: Puede comenzar a copiar el código en su archivo de texto y agregar los próximos a medida que los vamos estudiand</string>
+    <string name="type">IMPORTANTE: Esta línea debe ser la primera línea del archivo, sin espacios o líneas que la precedan. De esta forma, el modo estándar del navegador es activado y las incorporaciones de HTML5 son interpretadas siempre que sea posible, o ignoradas en caso contrario. Hágalo usted mismo: Puede comenzar a copiar el código en su archivo de texto y agregar los próximos a medida que los vamos estudiando</string>
     <string name="html"><![CDATA[Luego de declarar el tipo de documento, debemos comenzar a construir la estructura HTML. Como siempre, la estructura tipo árbol de este lenguaje tiene su raíz en el elemento <html>. Este elemento envolverá al resto del código]]></string>
     <string name="body"><![CDATA[La siguiente gran sección que es parte principal de la organización de un documento HTML es el cuerpo. El cuerpo representa la parte visible de todo documento y es especificado entre etiquetas <body>. Estas etiquetas tampoco han cambiado en relación con versiones previas de HTML]]></string>
     <string name="title"><![CDATA[La etiqueta <title>, como siempre, simplemente especifica el título del documento, y no hay nada nuevo para comenta]]></string>
@@ -150,7 +150,7 @@
     <string name="aprende">Aprenda HTML5 en 5 minutos</string>
     <string name="cuerpo">Estructura del cuerpo</string>
     <string name="content_cuerpo">La estructura del cuerpo el código entre las etiquetas body) generará la parte visible del documento. Este es el código que producirá nuestra página web</string>
-    <string name="etiquetas_basicas">A continuacion son las etiquetas basicas</string>
+    <string name="etiquetas_basicas">A continuacion son las etiquetas básicas</string>
     <string name="header">Header</string>
     <string name="header_contenido">Header: la intención de header es proveer información introductoria (títulos, subtítulos, logos) dentro de las etiquetas head va por ejemplo Titulo y hasta hipervincuos pero solo se pone eso</string>
     <string name="nav">nav</string>
@@ -168,7 +168,7 @@
     <string name="impor_html">Importancia de HTML5</string>
     <string name="titu">Titulo</string>
     <string name="nue_vie">Nuevos y viejos elementos</string>
-    <string name="nue_vie_contenido">HTML5 fue desarrollado con la intención de simplificar, especificar y organizar el código. Para lograr este propósito, nuevas etiquetas y atributos fueron agregados y HTML fue completamente integrado a CSS y Javascr</string>
+    <string name="nue_vie_contenido">HTML5 fue desarrollado con la intención de simplificar, especificar y organizar el código. Para lograr este propósito, nuevas etiquetas y atributos fueron agregados y HTML fue completamente integrado a CSS y Javascript</string>
     <string name="mark">mark</string>
     <string name="mark_contenido">La etiqueta mark fue agregada para resaltar parte de un texto que originalmente no era considerado importante pero ahoraes relevante acorde con las acciones del usuario. El ejemplo que más se ajusta a este caso es un resultado de búsqueda. El elemento mark resaltará la parte del texto que concuerda con el texto buscado</string>
     <string name="small">small</string>
@@ -179,7 +179,7 @@
     <string name="address_contenido">El elemento address es un viejo elemento convertido en un elemento estructural. No necesitamos usarlo previamente para construir nuestra plantilla, sin embargo podría ubicarse perfectamente en algunas situaciones en las que debemos presentar información de contacto relacionada con el contenido del elemento article o el cuerpo completo.</string>
     <string name="time">time</string>
     <string name="time_contenido">El elemento time nos permite declarar un texto comprensible para humanos y navegadores que representa fecha y hora:</string>
-    <string name="referencia_rapida">Referencias Rapidas</string>
+    <string name="referencia_rapida">Referencias Rápidas</string>
     <string name="referencia_contenido">En la especificación HTML5, HTML está a cargo de la estructura del documento y provee un grupo completo de nuevos elementos para este propósito. La especificación también incluye algunos elementos con la única tarea de proveer estilos. Esta es una lista de los que consideramos más relevantes: IMPORTANTE: Para una completa referencia de los elementos HTML incluidos en la especificación, visite nuestro sitio web y siga los enlaces correspondientes a este capítulo. header Este elemento presenta información introductoria y puede ser aplicado en diferentes secciones del documento. Tiene el propósito de contener la cabecera de una sección pero también puede ser utilizado para agrupar índices, formularios de búsqueda, logos, etc... nav Este elemento indica una sección de enlaces con propósitos de navegación, como menús o índices. No todos los enlaces dentro de una página web tienen que estar dentro de un elemento nav , solo aquellos que forman partes de bloques de navegación. section Este elemento representa una sección general del documento. Es usualmente utilizado para construir varios bloques de contenido (por ejemplo, columnas) con el propósito de ordenar el contenido que comparte una característica específica, como capítulos o páginas de un libro, grupo de noticias, artículos, etc... aside Este elemento representa contenido que está relacionado con el contenido principal pero no es parte del mismo. Ejemplos pueden ser citas, información en barras laterales, publicidad, etc... footer Este elemento representa información adicional sobre su elemento padre. Por ejemplo, un elementofooter insertado al final del cuerpo proveerá información adicional sobre el cuerpo del documento, como el pie normal de una página web. Puede ser usado no solo para el cuerpo sino también para diferentes secciones dentro del cuerpo, otorgando información adicional sobre estas secciones específicas</string>
     <string name="soporte_contenido">Uno de los grandes “problemas” (que no lo es tanto) de HTML5 es su funcionamiento en navegadores viejos y obsoletos. Más concretamente en Internet Explorer. Mucha gente sigue sin desarrollar en HTML5 por esta supuesta incompatibilidad, pero hay formas de que las etiquetas semánticas de HTML5 y atributos de CSS3 funcionen en IE. HTML5 Enabling Script: Permite usar las etiquetas semanticas dentro de IE6, 7 y 8 como si fueran divs normales, estilizables por CSS. Sin este script, las etiquetas son ignoradas en IE y es imposible agregarles diseño a ellas o cualquier elemento dentro de ellas.Para utilizarlo se debe incluir esta línea en el “head” de tu documento. !--[if lt IE 9] script src=http://HTML5shim.googlecode.com/svn/trunk/HTML5.js /script [endif] IE-CSS3: Este extraño script permite usar bordes redondeados y sombras sobre objetos de CSS3 en IE6, 7 y 8. ¿Cómo te quedas? Modernizr: Cuando todo falla, con Modernizr puedes detectar si el navegador tiene soporte para multiples capacidades de Javascript, HTML5 y CSS3. Si no, tu mismo puedes poner la solución o alternativa.</string>
     <string name="importancia_html">Importancia de HTML5</string>
@@ -187,4 +187,7 @@
     <string name="tag">Tag en videos</string>
     <string name="menu">Menu</string>
     <string name="menudos">Menu</string>
+    <string name="Cuestionario">Cuestionario</string>
+    <string name="correo">Correo</string>
+    <string name="pdf">Crear PDF de acreditación</string>
 </resources>

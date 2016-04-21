@@ -40,7 +40,7 @@ public class ResultActivityCuatro extends Activity {
 				break;
 		case 1:
 
-			t.setText("Tienes una Respuestas correctas.... Tienes que volver a intentar el quiz");
+			t.setText("Tienes una Respuesta correcta.... Tienes que volver a intentar el quiz");
 break;
 		case 2:
 			t.setText("Tienes dos Respuestas correctas.... Tienes que volver a intentar el quiz");

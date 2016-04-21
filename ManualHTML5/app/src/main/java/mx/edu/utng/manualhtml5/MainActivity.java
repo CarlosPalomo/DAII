@@ -20,23 +20,18 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-    /**
-     * reproducir la cancion de fondo
-     */
-    private MediaPlayer reproductor;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.tlb_menu);
         setSupportActionBar(toolbar);
         /**
          * mandar llamar la cancion
          */
-        reproductor=MediaPlayer.create(this, R.raw.musi);
-        reproductor.setLooping(true);
-        reproductor.start();
+
 
         Button btnAlert=(Button)findViewById(R.id.btn_Alert);
 
@@ -44,7 +39,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v) {
                 AlertDialog.Builder builder=new AlertDialog.Builder(MainActivity.this);
-                builder.setMessage("Estas seguro de salir de la aplicacion?");
+                builder.setMessage("Estas seguro de salir de la aplicación?");
                 builder.setIcon(android.R.drawable.ic_dialog_alert);
                 builder.setPositiveButton("SI", new DialogInterface.OnClickListener() {
                     @Override
@@ -156,25 +151,5 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    /**
-     * para que la musica de fondo se detenga cuando se cierra la app
-     */
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        if(reproductor.isPlaying()){
-            reproductor.stop();
-            reproductor.release();
-        }
-    }
-    @Override
-    protected void onResume() {
-        super.onResume();
-        reproductor.start();
-    }
-    @Override
-    protected void onPause() {
-        super.onPause();
-        reproductor.pause();
-    }
+
 }

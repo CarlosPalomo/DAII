@@ -8,7 +8,7 @@
         android:id="@+id/QuestionTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="En este apartado observa muy bien el codigo que esta en la imagen de abajo y selecciona la etiqueta que falta" />
+        android:text="En este apartado observa muy bien el código que está en la imagen de abajo y selecciona la etiqueta que falta" />
 <ImageView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"

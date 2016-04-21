@@ -85,7 +85,7 @@ public class CorreoActivity extends AppCompatActivity implements OnClickListener
  * se llena con los datos que se quiere mostrar
  */
                 email = edtEmail.getText().toString();
-                subject ="Acreditacion";
+                subject ="Acreditación";
                 message = "A concluido con exito las lecciones";
 
 

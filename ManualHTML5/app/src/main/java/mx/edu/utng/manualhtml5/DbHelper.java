@@ -76,15 +76,15 @@ public class DbHelper extends SQLiteOpenHelper {
 
     private void addQuestions()
     {
-        Question q1=new Question("¿Que significa las siglas HTML?","Hiper Text Markup Languaje", "Hipter Tax Marked ", "Hiper texto", "Hiper Text Markup Languaje");
+        Question q1=new Question("¿Qué significa las siglas HTML?","Hiper Text Markup Languaje", "Hipter Tax Marked ", "Hiper texto", "Hiper Text Markup Languaje");
         this.addQuestion(q1);
-        Question q2=new Question("¿Para que sirve la etiqueta DOCTYPE?", "es la base de la pagina web", "Es el cuerpo de la pagina", "no sirve ppara nada", "es la base de la pagina web");
+        Question q2=new Question("¿Para qué sirve la etiqueta DOCTYPE?", "Es la base de la página web", "Es el cuerpo de la pagina", "no sirve para nada", "Es la base de la página web");
         this.addQuestion(q2);
-        Question q3=new Question("¿Para que sirve html?","Para envolver todo el codigo", "iniciar a programar","ninguna de las anteriores","Para envolver todo el codigo");
+        Question q3=new Question("¿Para qué sirve html?","Para envolver todo el código", "Iniciar a programar","Ninguna de las anteriores","Para envolver todo el código");
         this.addQuestion(q3);
-        Question q4=new Question("¿Que hace la etiqueta title?",	"Poner titulo", "Para diseño", "Ninguna de las anteriores","Poner titulo");
+        Question q4=new Question("¿Qué hace la etiqueta title?", "Poner titulo", "Para diseño", "Ninguna de las anteriores","Poner titulo");
         this.addQuestion(q4);
-        Question q5=new Question("¿Que es HTML5?","Lenguaje de programacion","Lenguaje de maquetacion","o ninguna","Lenguaje de maquetacion");
+        Question q5=new Question("¿Qué es HTML5?","Lenguaje de programacion","Lenguaje de maquetación","Ninguna","Lenguaje de maquetación");
         this.addQuestion(q5);
     }
     @Override
@@ -150,15 +150,15 @@ public class DbHelper extends SQLiteOpenHelper {
 
     private void addQuestionsDos()
     {
-        Question d1=new Question("¿Para que es la etiqueta body?","Para empezar a realizar la pagina", "Es la estructura del cuerpo", "Da el titulo", "Es la estructura del cuerpo");
+        Question d1=new Question("¿Para qué es la etiqueta body?","Para empezar a realizar la página", "Es la estructura del cuerpo", "Da el titulo", "Es la estructura del cuerpo");
         this.addQuestiondos(d1);
-        Question d2=new Question("¿Para que sirve la etiqueta header?", "Es proveer información introductoria", "Es la cabecera", "Es el cuerpo", "Es proveer información introductoria");
+        Question d2=new Question("¿Para qué sirve la etiqueta header?", "Es proveer información introductoria", "Es la cabecera", "Es el cuerpo", "Es proveer información introductoria");
         this.addQuestiondos(d2);
-        Question d3=new Question("¿Para que sirve la etiqueta nav?","Para el titulo", "Barra de navegacion","Ninguna de las anteriores","Barra de navegacion");
+        Question d3=new Question("¿Para qué sirve la etiqueta nav?","Para el titulo", "Barra de navegación","Ninguna de las anteriores","Barra de navegación");
         this.addQuestiondos(d3);
-        Question d4=new Question("¿Para que sirve la etiqueta section?", "contiene la información más relevante", "Secciona el cuerpo", "Secciona la organizacion","contiene la información más relevant");
+        Question d4=new Question("¿Para qué sirve la etiqueta section?", "Contiene la información más relevante", "Secciona el cuerpo", "Secciona la organizacion","Contiene la información más relevant");
         this.addQuestiondos(d4);
-        Question d5=new Question("¿Para que sirve aside?","para realizar codigo","Para el diseño","En un típico diseño web","En un típico diseño web");
+        Question d5=new Question("¿Para qué sirve aside?","para realizar código","Para el diseño","En un típico diseño web","En un típico diseño web");
         this.addQuestiondos(d5);
     }
 
@@ -208,15 +208,15 @@ public class DbHelper extends SQLiteOpenHelper {
     private static final String KEY_OPTCT= "optc"; //option c
     private void addQuestionsTres()
     {
-        Question q1=new Question("¿Que es article?","Son articulos", "Es el contenido clave mostrado en pantalla", "Articulos en la pagina", "Es el contenido clave mostrado en pantalla");
+        Question q1=new Question("¿Qué es article?","Son articulos", "Es el contenido clave mostrado en pantalla", "Articulos en la pagina", "Es el contenido clave mostrado en pantalla");
         this.addQuestionT(q1);
-        Question q2=new Question("¿Para que es hgroup?", "Para construir cabeceras", "Para ordenar", "Para mostrar la pagina", "Para construir cabeceras");
+        Question q2=new Question("¿Para qué es hgroup?", "Para construir cabeceras", "Para ordenar", "Para mostrar la pagina", "Para construir cabeceras");
         this.addQuestionT(q2);
-        Question q3=new Question("¿Para que sirve declarar figure?","para declarar el contenido del documento", "Para hacer figuras","Para nada","para declarar el contenido del documento");
+        Question q3=new Question("¿Para qué sirve declarar figure?","para declarar el contenido del documento", "Para hacer figuras","Para nada","para declarar el contenido del documento");
         this.addQuestionT(q3);
-        Question q4=new Question("¿Para que sirve figcaption?",	"Imprimir Mensaje", "Captar codigo", "Para relacionar el texto con figure","Para relacionar el texto con figure");
+        Question q4=new Question("¿Para qué sirve figcaption?",	"Imprimir Mensaje", "Captar código", "Para relacionar el texto con figure","Para relacionar el texto con figure");
         this.addQuestionT(q4);
-        Question q5=new Question("¿Para que es la etiqueta H1?","Hacer mas grande la letra","Hacer titulos","Estructura principal","Hacer mas grande la letra");
+        Question q5=new Question("¿Para qué es la etiqueta H1?","Hacer mas grande la letra","Hacer titulos","Estructura principal","Hacer mas grande la letra");
         this.addQuestionT(q5);
     }
 
@@ -267,15 +267,15 @@ public class DbHelper extends SQLiteOpenHelper {
 
 
     private void addQuestionsCuatro() {
-        Question q1 = new Question("¿Para que es la etiqueta Mark?"," resaltar parte de un texto", "Marcar letras", "Maquear", " resaltar parte de un text");
+        Question q1 = new Question("¿Para qué es la etiqueta Mark?"," Resaltar parte de un texto", "Marcar letras", "Maquear", " Resaltar parte de un text");
         this.addQuestionC(q1);
-        Question q2 = new Question("Para que sirve small", "Pequeña la pagina", "Pequeñas las imagenes", "cualquier texto con letra pequeñas", "cualquier texto con letra pequeñas");
+        Question q2 = new Question("¿Para qué sirve small?", "Pequeña la pagina", "Pequeñas las imagenes", "Cualquier texto con letra pequeñas", "Cualquier texto con letra pequeñas");
         this.addQuestionC(q2);
-        Question q3 = new Question("Para que sirve la etiqueta cite","rellenar", "Encerrar titulo","citar","Encerrar titulo");
+        Question q3 = new Question("¿Para qué sirve la etiqueta cite?","Rellenar", "Encerrar titulo","citar","Encerrar titulo");
         this.addQuestionC(q3);
-        Question q4 = new Question("Para que sirve la etiqueta address",	"Direccion", "para la informacion del contacto", "Hubicacion","para la informacion del contacto");
+        Question q4 = new Question("¿Para qué sirve la etiqueta address?",	"Direccion", "Para la información del contacto", "Hubicacion","Para la información del contacto");
         this.addQuestionC(q4);
-        Question q5 = new Question("Para que sirve la etiqueta time","dar la fecha","para la hora","para los dias","dar la fecha");
+        Question q5 = new Question("¿Para qué sirve la etiqueta time?","Dar la fecha","Para la hora","Para los dias","Dar la fecha");
         this.addQuestionC(q5);
     }
     // Adding new question
@@ -329,11 +329,11 @@ public class DbHelper extends SQLiteOpenHelper {
         this.addQuestionS(q1);
         Question q2=new Question("¿Cúales son sus implementaciones?", "Definir enlaces, usar los enlaces existentes", "Definir las variables, Definir las clases", "Definir los grados, Definir la eficiencia", "Definir enlaces, usar los enlaces existentes");
         this.addQuestionS(q2);
-        Question q3=new Question("Definicion del Command","Petición de encapusulacion de objetos", "Tratado de forma de los objetos","Trasnsfondo del uso de objetos", "Petición de encapusulacion de objetos" );
+        Question q3=new Question("Definición del Command","Petición de encapusulacion de objetos", "Tratado de forma de los objetos","Trasnsfondo del uso de objetos", "Petición de encapusulacion de objetos" );
         this.addQuestionS(q3);
-        Question q4=new Question("¿Qué es Interpreter?", "Representacion de la gramatica junto a un interprete", "Formación de diccionarios", "Trasnformación de clases a diccionarios","Representacion de la gramatica junto a un interprete");
+        Question q4=new Question("¿Qué es Interpreter?", "Representacion de la gramática junto a un interprete", "Formación de diccionarios", "Trasnformación de clases a diccionarios","Representacion de la gramática junto a un interprete");
         this.addQuestionS(q4);
-        Question q5=new Question("¿Que es un Iterator?","Modo de acceder a los elementos de un objeto","Son repercusiones de cursos","Interpretacion grafica","Modo de acceder a los elementos de un objeto");
+        Question q5=new Question("¿Qué es un Iterator?","Modo de acceder a los elementos de un objeto","Son repercusiones de cursos","Interpretacion grafica","Modo de acceder a los elementos de un objeto");
         this.addQuestionS(q5);
     }
 

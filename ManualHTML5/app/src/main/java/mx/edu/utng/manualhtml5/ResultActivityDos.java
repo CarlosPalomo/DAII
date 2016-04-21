@@ -39,7 +39,7 @@ public class ResultActivityDos extends Activity {
 			case 0: t.setText("PERDEDOR ERES MALISIMO NO HAS TENIDO NINGUN ACIERTO");
 				break;
 		case 1:
-			t.setText("Tienes una Respuestas correctas.... Tienes que volver a intentar el quiz");
+			t.setText("Tienes una Respuesta correcta.... Tienes que volver a intentar el quiz");
 		break;
 		case 2:
 			t.setText("Tienes dos Respuestas correctas.... Tienes que volver a intentar el quiz");
